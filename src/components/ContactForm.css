@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.contact-form {
+  padding: 2rem;
+}
+.contact-lets {
+  font-size: 1.5em;
+}
+.C-label {
+  font-weight: 800;
+}

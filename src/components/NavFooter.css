@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#light .N-footer {
+  background: #eee3cb;
+}
+#light .nav-link:hover {
+  color: black;
+}
+.N-footer {
+  background: #3f4e4f;
+  justify-content: center;
+}
+.nav-item .nav-link {
+  position: relative;
+  color: #a27b5c;
+}
+.nav-link:hover {
+  color: black;
+}
+@media (max-width: 768px) {
+  .N-footer {
+    width: 100%;
+  }
+}

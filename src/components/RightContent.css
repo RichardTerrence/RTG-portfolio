@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  overflow-x: hidden;
+}
+#light {
+  background-color: #f7f7f7;
+}
+#dark {
+  background-color: #2c3639;
+}
+#light h1,
+h2,
+h5,
+h6 {
+  color: #2c3639;
+  font-weight: 700;
+}
+#light .l-title {
+  color: #2c3639;
+}
+#light .abouts {
+  color: #2c3639;
+}
+#light p {
+  color: #2c3639;
+}
+#light h6 {
+  color: #2c3639;
+  font-weight: 700;
+}
+#light h2 {
+  color: #2c3639;
+  font-weight: 700;
+}
+#light h5 {
+  color: #2c3639;
+  font-weight: 700;
+}
+#light .C-label {
+  color: #2c3639;
+}
+#light .B-button {
+  background-color: #2c3639;
+  color: #dcd7c9;
+}
+#light .B-button:hover {
+  color: black;
+}
+
+#dark h1,
+h2,
+h5,
+h6 {
+  color: #dcd7c9;
+  font-weight: 700;
+}
+#dark .l-title,
+p {
+  color: #dcd7c9;
+}
+#dark .abouts {
+  color: #dcd7c9;
+}
+#dark h6 {
+  color: #dcd7c9;
+  font-weight: 700;
+}
+#dark h2 {
+  color: #dcd7c9;
+  font-weight: 700;
+}
+#dark h5 {
+  color: #dcd7c9;
+  font-weight: 700;
+}
+#dark .C-label {
+  color: #dcd7c9;
+}
+#dark .B-button {
+  background-color: #dcd7c9;
+}
+
+.rightcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "right-switch"
+    "right-info"
+    "right-about"
+    "right-skill"
+    "right-portfoliogallery"
+    "right-contacticon"
+    "right-contactform"
+    "right-footer";
+  width: 100%;
+  height: 100vh;
+}
+.right-switch {
+  position: absolute;
+  padding-top: 1rem;
+  left: 45rem;
+}
+.right-info {
+  grid-area: right-info;
+  color: #dcd7c9;
+  text-align: center;
+  justify-content: center;
+  padding-top: 17rem;
+}
+.right-info h1 {
+  font-size: 3em;
+  color: black;
+}
+.right-info p {
+  font-size: 1.5em;
+  color: black;
+}
+.right-about {
+  grid-area: right-about;
+  padding: 4rem;
+}
+.right-about h5 {
+  font-size: 2em;
+}
+.right-about p {
+  font-size: 1.2em;
+}
+.right-skill {
+  grid-area: right-skill;
+}
+.right-portfoliogallery {
+  grid-area: right-portfoliogallery;
+}
+.right-contacticon {
+  grid-area: right-contacticon;
+}
+.right-contactform {
+  grid-area: right-contactform;
+}
+.right-footer {
+  grid-area: right-footer;
+}
+
+@media (max-width: 768px) {
+  .rightcontainer {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "right-switch"
+      "right-info"
+      "right-about"
+      "right-skill"
+      "right-portfoliogallery"
+      "right-contacticon"
+      "right-contactform"
+      "right-footer";
+    width: 100%;
+  }
+}
