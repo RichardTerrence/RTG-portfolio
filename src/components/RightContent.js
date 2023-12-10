@@ -29,7 +29,7 @@ const RightContent = () => {
         </div>
         <div className="right-info">
           <h1>Richard Terrence Go</h1>
-          <p>Software Engineer</p>
+          <p>Front-End Developer</p>
           <a href="R.Go-CV.pdf" download="R.Go-CV.pdf">
             <Button className="right-button" style={{ border: "none" }}>
               <i className="fa fa-download"></i> Download Resume
