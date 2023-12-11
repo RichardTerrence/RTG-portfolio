@@ -23,7 +23,7 @@ h6 {
 #light .l-title {
   color: #2c3639;
 }
-#light .abouts {
+#light .right-about {
   color: #2c3639;
 }
 #light p {
@@ -51,6 +51,9 @@ h6 {
 #light .B-button:hover {
   color: black;
 }
+#light .right-about {
+  background-color: #f7f7f7;
+}
 
 #dark h1,
 h2,
@@ -59,11 +62,10 @@ h6 {
   color: #dcd7c9;
   font-weight: 700;
 }
-#dark .l-title,
-p {
+#dark .right-info p {
   color: #dcd7c9;
 }
-#dark .abouts {
+#dark .right-about {
   color: #dcd7c9;
 }
 #dark h6 {
@@ -84,7 +86,11 @@ p {
 #dark .B-button {
   background-color: #dcd7c9;
 }
-
+#dark .right-info,
+.right-about,
+.rightcontainer2 {
+  background-color: #2c3639;
+}
 .rightcontainer {
   display: grid;
   grid-template-columns: 1fr;
@@ -159,5 +165,11 @@ p {
       "right-contactform"
       "right-footer";
     width: 100%;
+  }
+  .right-switch {
+    position: absolute;
+    padding-top: 1rem;
+    left: 26rem;
+    z-index: 1;
   }
 }

@@ -53,20 +53,12 @@ const RightContent = () => {
             and thrive in the ever-evolving world of web development.
           </p>
         </div>
-        <div className="right-skill">
-          <Skills />
-        </div>
-        <div className="right-portfoliogallery">
-          <PortfolioGallery />
-        </div>
-        <div className="right-contacticon">
-          <ContactIcon />
-        </div>
-        <div className="right-contactform">
-          <ContactForm />
-        </div>
-        <div className="right-footer">
-          <NavFooter />
+        <div className="rightcontainer2" id={theme}>
+          <Skills className="right-skill" />
+          <PortfolioGallery className="right-portfoliogallery" />
+          <ContactIcon className="right-contacticon" />
+          <ContactForm className="right-contactform" />
+          <NavFooter className="right-footer" />
         </div>
       </div>
     </ThemeContext.Provider>

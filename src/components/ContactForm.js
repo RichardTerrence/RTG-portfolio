@@ -34,9 +34,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="contact">
       <h6 className="contact-lets">Let's Connect, Send me a message</h6>
-      <Form className="C-form" id="contact" ref={Form} onSubmit={sendEmail}>
+      <Form className="C-form" ref={Form} onSubmit={sendEmail}>
         <Form.Group className="mb-3" controlId="formBasicFullname">
           <Form.Label className="C-label">Fullname</Form.Label>
           <Form.Control
