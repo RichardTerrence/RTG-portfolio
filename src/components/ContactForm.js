@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "./ContactForm.css";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
@@ -69,7 +69,9 @@ const ContactForm = () => {
         </Form.Group>
         <Button
           className="C-button"
-          style={{ border: "none" }}
+          style={{
+            border: "none",
+          }}
           type="submit"
           value="Send"
         >

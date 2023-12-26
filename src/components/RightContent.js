@@ -9,6 +9,7 @@ import NavFooter from "./NavFooter";
 import Skills from "./Skills";
 import ReactSwitch from "react-switch";
 import { createContext, useState } from "react";
+import rex999 from "../components/images/rex999.png";
 
 export const ThemeContext = createContext(null);
 const RightContent = () => {

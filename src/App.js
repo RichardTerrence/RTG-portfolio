@@ -8,9 +8,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <PortfolioContainer />
-        <Routes>
-          <Route path="/" element={<LeftContent />} />
-        </Routes>
+        <Routes></Routes>
       </BrowserRouter>
     </>
   );

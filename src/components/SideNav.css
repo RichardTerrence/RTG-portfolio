@@ -90,7 +90,7 @@ nav a {
   color: black;
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .container .nav-btn {
     visibility: visible;
     padding: 5px;
@@ -148,7 +148,7 @@ nav a {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .container .nav-btn {
     visibility: visible;
     padding: 5px;
@@ -206,7 +206,7 @@ nav a {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container .nav-btn {
     visibility: visible;
     padding: 5px;
@@ -264,7 +264,7 @@ nav a {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .container .nav-btn {
     visibility: visible;
     padding: 5px;
