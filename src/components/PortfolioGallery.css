@@ -28,3 +28,8 @@ h2 {
   bottom: -1rem;
   color: #dcd7c9;
 }
+@media (max-width: 992px) {
+  .myPortfolio {
+    padding: 2rem;
+  }
+}

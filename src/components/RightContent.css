@@ -168,15 +168,26 @@ h6 {
     width: 60%;
     height: 100%;
   }
+  .rightcontainer1,
+  .rightcontainer2 {
+    max-width: 100%;
+  }
   .right-info {
     color: #dcd7c9;
     text-align: center;
     justify-content: center;
     padding-top: 24rem;
+    max-width: 100%;
+  }
+  .right-info h1 {
+    font-size: 2.5em;
   }
   .right-switch {
     float: right;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 2.5rem;
+  }
+  .right-portfoliogallery {
+    padding: 1rem;
   }
 }
 
