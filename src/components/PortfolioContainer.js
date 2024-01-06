@@ -9,7 +9,7 @@ const PortfolioContainer = () => {
       <div className="right-content">
         <RightContent />
       </div>
-      <div className="right-content">
+      <div className="left-content">
         <LeftContent />
       </div>
     </div>

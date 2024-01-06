@@ -10,3 +10,7 @@
 .c-icon h6 {
   font-size: 1.2em;
 }
+.c-icon {
+  display: flex;
+  flex-direction: column;
+}

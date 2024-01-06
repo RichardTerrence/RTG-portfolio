@@ -9,11 +9,10 @@ import NavFooter from "./NavFooter";
 import Skills from "./Skills";
 import ReactSwitch from "react-switch";
 import { createContext, useState } from "react";
-import rex999 from "../components/images/rex999.png";
 
 export const ThemeContext = createContext(null);
 const RightContent = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -32,7 +31,7 @@ const RightContent = () => {
           <div className="right-info">
             <h1>Richard Terrence Go</h1>
             <p>Front-End Developer</p>
-            <a href="R.Go-CV.pdf" download="R.Go-CV.pdf">
+            <a href="RTG.pdf" download="RTG.pdf">
               <Button className="right-button" style={{ border: "none" }}>
                 <i className="fa fa-download"></i> Download Resume
               </Button>

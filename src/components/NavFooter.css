@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 #light .N-footer {
-  background: #eee3cb;
+  background: #3081d0;
 }
 #light .nav-link:hover {
   color: black;
@@ -21,7 +21,12 @@
 .nav-link:hover {
   color: black;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .N-footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
   .N-footer {
     width: 100%;
   }

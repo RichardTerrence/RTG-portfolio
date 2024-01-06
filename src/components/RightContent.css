@@ -154,7 +154,7 @@ h6 {
   grid-area: right-footer;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .rightcontainer {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -185,13 +185,14 @@ h6 {
   .right-switch {
     float: right;
     padding: 0.5rem 2.5rem;
+    z-index: -1;
   }
   .right-portfoliogallery {
     padding: 1rem;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .rightcontainer {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -215,9 +216,10 @@ h6 {
     float: right;
     padding: 0.5rem 0.5rem;
     display: none;
+    z-index: -1;
   }
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .rightcontainer {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -241,5 +243,6 @@ h6 {
     float: right;
     padding: 0.5rem 0.5rem;
     display: none;
+    z-index: -1;
   }
 }
