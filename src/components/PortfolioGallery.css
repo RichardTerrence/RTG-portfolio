@@ -33,3 +33,18 @@ h2 {
     padding: 2rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .myPortfolio {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .myPortfolio {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .myPortfolio {
+    padding: 2rem;
+  }
+}

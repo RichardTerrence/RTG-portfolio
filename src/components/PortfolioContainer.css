@@ -16,7 +16,15 @@
 .right-content {
   grid-area: rightcontent;
 }
-
+@media only screen and (max-width: 1200px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "leftcontent"
+      "rightcontent";
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 992px) {
   .main-container {
     grid-template-columns: 1fr;
@@ -35,6 +43,7 @@
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .main-container {
     grid-template-columns: 1fr;

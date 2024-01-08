@@ -4,6 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 html {
   overflow-x: hidden;
 }
@@ -102,7 +103,7 @@ h6 {
     "right-contacticon"
     "right-contactform"
     "right-footer";
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
 }
 .right-switch {
@@ -153,7 +154,32 @@ h6 {
 .right-footer {
   grid-area: right-footer;
 }
-
+@media only screen and (max-width: 1200px) {
+  .rightcontainer {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "right-info"
+      "right-about"
+      "right-skill"
+      "right-portfoliogallery"
+      "right-contacticon"
+      "right-contactform"
+      "right-footer";
+    width: 60%;
+    height: 100%;
+  }
+  .right-info {
+    color: #dcd7c9;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .right-switch {
+    float: right;
+    padding: 0.5rem 2.5rem;
+    z-index: 1;
+  }
+}
 @media only screen and (max-width: 992px) {
   .rightcontainer {
     grid-template-columns: 1fr;
@@ -168,27 +194,16 @@ h6 {
     width: 60%;
     height: 100%;
   }
-  .rightcontainer1,
-  .rightcontainer2 {
-    max-width: 100%;
-  }
   .right-info {
     color: #dcd7c9;
     text-align: center;
     justify-content: center;
-    padding-top: 24rem;
     max-width: 100%;
-  }
-  .right-info h1 {
-    font-size: 2.5em;
   }
   .right-switch {
     float: right;
     padding: 0.5rem 2.5rem;
-    z-index: -1;
-  }
-  .right-portfoliogallery {
-    padding: 1rem;
+    z-index: 1;
   }
 }
 
@@ -210,15 +225,18 @@ h6 {
     color: #dcd7c9;
     text-align: center;
     justify-content: center;
-    padding-top: 25rem;
+    padding-top: 1rem;
   }
   .right-switch {
     float: right;
+    top: 0.5rem;
+    right: 0.5rem;
     padding: 0.5rem 0.5rem;
-    display: none;
-    z-index: -1;
+    z-index: 1;
+    position: absolute;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .rightcontainer {
     grid-template-columns: 1fr;
@@ -237,12 +255,14 @@ h6 {
     color: #dcd7c9;
     text-align: center;
     justify-content: center;
-    padding-top: 18rem;
+    padding-top: 1rem;
   }
   .right-switch {
     float: right;
+    top: 0.5rem;
+    right: 0.5rem;
     padding: 0.5rem 0.5rem;
-    display: none;
-    z-index: -1;
+    z-index: 1;
+    position: absolute;
   }
 }

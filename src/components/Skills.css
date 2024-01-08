@@ -68,7 +68,22 @@
   color: white;
   text-align: center;
 }
-
+@media only screen and (max-width: 1200px) {
+  .skill-tech {
+    width: 20rem;
+  }
+  .skill-progress h6 {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .skill-tech {
+    width: 20rem;
+  }
+  .skill-progress h6 {
+    font-size: 1.2em;
+  }
+}
 @media only screen and (max-width: 768px) {
   .skill-tech {
     width: 20rem;
