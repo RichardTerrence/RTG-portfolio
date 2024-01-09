@@ -1,12 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PortfolioContainer from "./components/PortfolioContainer";
+
+import RightContent from "./components/RightContent";
+import LeftContent from "./components/LeftContent";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-        <PortfolioContainer />
+        <RightContent />
+        <LeftContent />
         <Routes>
           <Route></Route>
         </Routes>

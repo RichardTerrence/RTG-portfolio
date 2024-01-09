@@ -5,7 +5,11 @@
   scroll-behavior: smooth;
 }
 #light .N-footer {
-  background: #3081d0;
+  background: #27374d;
+}
+#light .nav-item .nav-link {
+  position: relative;
+  color: #dde6ed;
 }
 #light .nav-link:hover {
   color: black;

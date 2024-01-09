@@ -7,13 +7,13 @@
   color: #2c3639;
 }
 #light .topnav {
-  background-color: #3081d0;
+  background-color: #27374d;
 }
 #light .nav-close-btn {
-  color: #2c3639;
+  color: #dde6ed;
 }
 #light a {
-  color: #2c3639;
+  color: #dde6ed;
 }
 .container {
   margin: 10px;
@@ -86,7 +86,7 @@ nav a {
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #a27b5c;
+  background-color: #6cb2e7;
   color: black;
 }
 @media only screen and (max-width: 1200px) {
