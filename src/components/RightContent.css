@@ -192,7 +192,7 @@ h6 {
   .right-info {
     color: #dcd7c9;
     text-align: center;
-    justify-content: center;
+
     max-width: 100%;
   }
   .right-switch {
@@ -218,12 +218,12 @@ h6 {
   .right-info {
     color: #dcd7c9;
     text-align: center;
-    justify-content: center;
+    font-size: 0.9em;
     max-width: 100%;
   }
   .right-switch {
     float: right;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     z-index: 1;
   }
 }
@@ -245,7 +245,6 @@ h6 {
   .right-info {
     color: #dcd7c9;
     text-align: center;
-    justify-content: center;
     padding-top: 18rem;
   }
   .right-switch {
@@ -274,7 +273,6 @@ h6 {
   .right-info {
     color: #dcd7c9;
     text-align: center;
-    justify-content: center;
     padding-top: 18rem;
   }
   .right-switch {

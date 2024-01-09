@@ -1,6 +1,5 @@
 import React from "react";
 import "./LeftContent.css";
-import rex999 from "./images/rex999.png";
 
 const LeftContent = () => {
   return (
@@ -11,7 +10,7 @@ const LeftContent = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={rex999} alt="Avatar" className="image" />
+        <img className="image" alt="" />
       </a>
       <div className="middle">
         <div className="text">Hi I am Terrence</div>
