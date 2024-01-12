@@ -11,7 +11,12 @@ const LeftContent = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={rex999} className="image" alt="" />
+        <img
+          src={rex999}
+          className="image"
+          alt=""
+          style={{ width: "100%", height: "100%" }}
+        />
       </a>
       <div className="middle">
         <div className="text">Hi I am Terrence</div>
