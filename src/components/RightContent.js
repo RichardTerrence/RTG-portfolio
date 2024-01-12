@@ -24,14 +24,18 @@ const RightContent = () => {
       <div className="rightcontainer">
         <div className="contentleft">
           <LeftContent />
+          <div className="right-switch">
+            <ReactSwitch
+              className="r-switch"
+              onChange={toggleTheme}
+              checked={theme === "dark"}
+            />
+          </div>
         </div>
         <div className="rightcontainer1" id={theme}>
           <React.Fragment>
             <SideNav />
           </React.Fragment>
-          <div className="right-switch">
-            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-          </div>
           <div className="right-info">
             <h1>Richard Terrence Go</h1>
             <p>Front-End Developer</p>

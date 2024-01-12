@@ -4,7 +4,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+body,
+html {
+  overflow-x: hidden;
+}
 #light {
   background-color: #f7f7f7;
 }
@@ -127,11 +130,14 @@ h6 {
 .rightcontainer1 {
   grid-area: rightcontainer1;
 }
+
 .right-switch {
-  float: right;
-  padding: 0.5rem 0.5rem;
-  z-index: 1;
+  grid-area: right-switch;
+  align-items: center;
 }
+.r-switch {
+}
+
 .right-info {
   grid-area: right-info;
   color: #dcd7c9;
@@ -228,12 +234,14 @@ h6 {
     color: #dcd7c9;
     text-align: center;
   }
+  /*
   .right-switch {
     top: 0.5rem;
     right: -1rem;
     z-index: 1;
     position: absolute;
   }
+  */
 }
 
 @media (max-width: 600px) {
@@ -255,12 +263,14 @@ h6 {
   .right-info h1 {
     font-size: 3em;
   }
+  /*
   .right-switch {
     top: 0.5rem;
-    right: -1rem;
+    right: -0.1rem;
     z-index: 1;
     position: absolute;
   }
+  */
 }
 @media (max-width: 480px) {
   .rightcontainer {
@@ -281,10 +291,13 @@ h6 {
   .right-info h1 {
     font-size: 3em;
   }
+  /*
   .right-switch {
     top: 0.5rem;
     right: -1rem;
     z-index: 1;
     position: absolute;
+    background-color: #526d82;
   }
+  */
 }

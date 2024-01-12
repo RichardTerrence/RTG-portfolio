@@ -53,17 +53,11 @@
     width: 100%;
     position: absolute;
   }
-  .image {
-    padding: 4rem 2rem 0 2rem;
-  }
 }
 @media (max-width: 480px) {
   .leftcontent-body {
     height: 50%;
     width: 100%;
     position: absolute;
-  }
-  .image {
-    padding: 4rem 2rem 0 2rem;
   }
 }
