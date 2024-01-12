@@ -68,7 +68,7 @@
   color: white;
   text-align: center;
 }
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .skill-tech {
     width: 20rem;
   }
@@ -76,7 +76,7 @@
     font-size: 1.2em;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .skill-tech {
     width: 20rem;
   }
@@ -84,7 +84,14 @@
     font-size: 1.2em;
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  .skill-progress {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-percent {
+    margin-left: 0.1rem;
+  }
   .skill-tech {
     width: 20rem;
   }
@@ -92,7 +99,14 @@
     font-size: 1.2em;
   }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
+  .skill-progress {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-percent {
+    margin-left: 0.1rem;
+  }
   .skill-tech {
     width: 20rem;
   }

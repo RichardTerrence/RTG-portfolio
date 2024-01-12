@@ -9,6 +9,7 @@ import NavFooter from "./NavFooter";
 import Skills from "./Skills";
 import ReactSwitch from "react-switch";
 import { createContext, useState } from "react";
+import LeftContent from "./LeftContent";
 
 export const ThemeContext = createContext(null);
 const RightContent = () => {
@@ -21,6 +22,9 @@ const RightContent = () => {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className="rightcontainer">
+        <div className="contentleft">
+          <LeftContent />
+        </div>
         <div className="rightcontainer1" id={theme}>
           <React.Fragment>
             <SideNav />
@@ -55,8 +59,6 @@ const RightContent = () => {
               development.
             </p>
           </div>
-        </div>
-        <div className="rightcontainer2" id={theme}>
           <Skills className="right-skill" />
           <PortfolioGallery className="right-portfoliogallery" />
           <ContactIcon className="right-contacticon" />

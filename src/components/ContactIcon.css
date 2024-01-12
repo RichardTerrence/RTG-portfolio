@@ -6,11 +6,22 @@
 }
 .c-icontitle {
   font-size: 1.8em;
+  margin-bottom: 1rem;
 }
 .c-icon h6 {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  margin-left: 1rem;
 }
 .c-icon {
   display: flex;
-  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.c-icon i {
+  color: #2a4e81;
+}
+@media (max-width: 600px) {
+  .c-icon h6 {
+    font-size: 1em;
+    margin-left: 1rem;
+  }
 }
