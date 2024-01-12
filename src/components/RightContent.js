@@ -13,7 +13,7 @@ import LeftContent from "./LeftContent";
 
 export const ThemeContext = createContext(null);
 const RightContent = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
@@ -24,26 +24,22 @@ const RightContent = () => {
       <div className="rightcontainer">
         <div className="contentleft">
           <LeftContent />
-          <div className="right-switch">
-            <ReactSwitch
-              className="r-switch"
-              onChange={toggleTheme}
-              checked={theme === "dark"}
-            />
-          </div>
         </div>
         <div className="rightcontainer1" id={theme}>
           <React.Fragment>
             <SideNav />
           </React.Fragment>
           <div className="right-info">
-            <h1>Richard Terrence Go</h1>
+            <h1>Richard Go</h1>
             <p>Front-End Developer</p>
             <a href="RTG.pdf" download="RTG.pdf">
               <Button className="right-button" style={{ border: "none" }}>
                 <i className="fa fa-download"></i> Download Resume
               </Button>
             </a>
+          </div>
+          <div className="right-switch">
+            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
           </div>
           <div
             className="right-about"
