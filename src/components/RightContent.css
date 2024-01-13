@@ -4,10 +4,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-body,
-html {
-  overflow-x: hidden;
-}
 #light {
   background-color: #f7f7f7;
 }
