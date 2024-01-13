@@ -4,14 +4,11 @@ import RightContent from "./components/RightContent";
 
 const App = () => {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <RightContent />
-        <Routes>
-          <Route></Route>
-        </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 export default App;

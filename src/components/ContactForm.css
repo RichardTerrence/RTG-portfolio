@@ -51,3 +51,10 @@ label {
     padding: 2rem;
   }
 }
+@media (max-width: 480px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+    grid-template-areas: "C-form";
+    padding: 2rem;
+  }
+}

@@ -45,3 +45,8 @@
     max-width: 100%;
   }
 }
+@media (max-width: 480px) {
+  .N-footer {
+    max-width: 100%;
+  }
+}

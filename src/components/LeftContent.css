@@ -3,12 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+body html {
+  overflow-x: hidden;
+}
 .leftcontent-body {
+  max-width: 100%;
   width: 40%;
+  height: 100%;
   position: fixed;
   filter: grayscale(100%);
   opacity: 90%;
-  height: 100%;
 }
 
 /*image :hover*/

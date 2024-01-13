@@ -6,7 +6,6 @@ const LeftContent = () => {
   return (
     <div className="leftcontent-body">
       <a
-        className="leftcontent"
         href="https://github.com/RichardTerrence"
         target="_blank"
         rel="noreferrer"
@@ -14,7 +13,7 @@ const LeftContent = () => {
         <img
           src={rex999}
           className="image"
-          alt=""
+          alt="RichardTerrence"
           style={{ width: "100%", height: "100%" }}
         />
       </a>
