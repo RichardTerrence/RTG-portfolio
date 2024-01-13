@@ -3,10 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-body,
-html {
-  overflow-x: hidden;
-}
+
 .leftcontent-body {
   min-width: 0px;
   width: 40%;
