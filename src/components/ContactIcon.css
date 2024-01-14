@@ -21,12 +21,7 @@
 .c-icon i {
   color: #2a4e81;
 }
-@media (max-width: 768px) {
-  .c-icon h6 {
-    font-size: 1.3em;
-    margin-left: 1rem;
-  }
-}
+
 @media (max-width: 600px) {
   .c-icon h6 {
     font-size: 1em;

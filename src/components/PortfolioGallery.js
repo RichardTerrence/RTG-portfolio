@@ -5,6 +5,9 @@ import capstone1 from "./images/capstone1.png";
 import capstone2 from "./images/capstone2.png";
 import capstone3 from "./images/capstone3.png";
 import minproj1 from "./images/minproj1.png";
+import minproj2 from "./images/minproj2.png";
+import minproj3 from "./images/minproj3.png";
+import minproj4 from "./images/minproj4.png";
 import majproj2 from "./images/majproj2.png";
 
 const PortfolioGallery = () => {
@@ -14,8 +17,11 @@ const PortfolioGallery = () => {
         <div className="portfolio-title">
           <h2>My Portfolio</h2>
         </div>
-        <div className="content" style={{ cursor: "pointer" }}>
+        <div className="content1" style={{ cursor: "pointer" }}>
           <img src={minproj1} alt="" style={{ width: "100%" }} />
+          <img src={minproj2} alt="" style={{ width: "100%" }} />
+          <img src={minproj3} alt="" style={{ width: "100%" }} />
+          <img src={minproj4} alt="" style={{ width: "100%" }} />
           <p></p>
         </div>
 
