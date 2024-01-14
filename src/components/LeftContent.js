@@ -1,6 +1,5 @@
 import React from "react";
 import "./LeftContent.css";
-import rex999 from "./images/rex999.png";
 
 const LeftContent = () => {
   return (
@@ -10,12 +9,7 @@ const LeftContent = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img
-          src={rex999}
-          className="image"
-          alt="RichardTerrence"
-          style={{ width: "100%", height: "100%" }}
-        />
+        <img alt="" />
       </a>
       <div className="middle">
         <div className="text">Hi I am Terrence</div>
