@@ -5,7 +5,7 @@
 }
 
 .leftcontent-body {
-  min-width: 0px;
+  max-width: 100%;
   width: 40%;
   height: 100%;
   position: fixed;
@@ -42,24 +42,40 @@
   font-weight: 900;
   padding: 16px 32px;
 }
+@media (max-width: 1200px) {
+  .leftcontent-body {
+    max-width: 100%;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+  }
+}
+@media (max-width: 992px) {
+  .leftcontent-body {
+    max-width: 100%;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+  }
+}
 @media (max-width: 768px) {
   .leftcontent-body {
-    height: 50%;
+    height: 50vh;
     width: 100%;
-    position: absolute;
+    position: relative;
   }
 }
 @media (max-width: 600px) {
   .leftcontent-body {
-    height: 50%;
+    height: 50vh;
     width: 100%;
-    position: absolute;
+    position: relative;
   }
 }
 @media (max-width: 480px) {
   .leftcontent-body {
-    height: 50%;
-    width: 100vw;
-    position: absolute;
+    height: 50vh;
+    width: 100%;
+    position: relative;
   }
 }

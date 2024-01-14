@@ -62,6 +62,20 @@ h2 {
     padding: 2rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .myPortfolio {
+    padding: 2rem;
+  }
+  .myPortfolio .content1 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "minproj1"
+      "minproj2"
+      "minproj3"
+      "minproj4";
+    gap: 1rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   .myPortfolio {
     padding: 2rem;

@@ -37,7 +37,13 @@ label {
     padding: 2rem;
   }
 }
-
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+    grid-template-areas: "C-form";
+    padding: 2rem;
+  }
+}
 @media (max-width: 600px) {
   .contact-form {
     grid-template-columns: 1fr;
