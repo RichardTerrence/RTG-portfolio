@@ -114,18 +114,3 @@
     font-size: 1.2em;
   }
 }
-@media (max-width: 480px) {
-  .skill-progress {
-    display: flex;
-    flex-direction: column;
-  }
-  .skill-percent {
-    margin-left: 0.1rem;
-  }
-  .skill-tech {
-    width: 20rem;
-  }
-  .skill-progress h6 {
-    font-size: 1.2em;
-  }
-}

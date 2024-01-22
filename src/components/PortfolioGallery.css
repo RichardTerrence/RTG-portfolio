@@ -43,15 +43,19 @@
 }
 .minproj1 {
   grid-area: minproj1;
+  cursor: pointer;
 }
 .minproj2 {
   grid-area: minproj2;
+  cursor: pointer;
 }
 .minproj3 {
   grid-area: minproj3;
+  cursor: pointer;
 }
 .minproj4 {
   grid-area: minproj4;
+  cursor: pointer;
 }
 .myPortfolio .content2 {
   display: grid;
@@ -79,13 +83,16 @@
 
 .majproj1 {
   grid-area: majproj1;
+  cursor: pointer;
 }
 .majproj2 {
   grid-area: majproj2;
+  cursor: pointer;
 }
 .majproj3 {
   grid-area: majproj3;
   margin-top: -5rem;
+  cursor: pointer;
 }
 .myPortfolio .content3 {
   display: grid;
@@ -114,15 +121,19 @@
 }
 .capstone {
   grid-area: capstone;
+  cursor: pointer;
 }
 .capstone1 {
   grid-area: capstone1;
+  cursor: pointer;
 }
 .capstone2 {
   grid-area: capstone2;
+  cursor: pointer;
 }
 .capstone3 {
   grid-area: capstone3;
+  cursor: pointer;
 }
 h2 {
   font-weight: 400;
@@ -175,40 +186,6 @@ h2 {
   }
 }
 @media (max-width: 600px) {
-  .myPortfolio {
-    padding: 2rem;
-  }
-  .myPortfolio .content1 {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "minproj1"
-      "minproj2"
-      "minproj3"
-      "minproj4";
-    gap: 1rem;
-  }
-  .myPortfolio .content2 {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "majproj1"
-      "majproj2"
-      "majproj3";
-    gap: 1rem;
-  }
-  .majproj3 {
-    margin-top: 0.1rem;
-  }
-  .myPortfolio .content3 {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "capstone"
-      "capstone1"
-      "capstone2"
-      "capstone3";
-    gap: 1rem;
-  }
-}
-@media (max-width: 480px) {
   .myPortfolio {
     padding: 2rem;
   }

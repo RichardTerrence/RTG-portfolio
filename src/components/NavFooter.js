@@ -8,7 +8,7 @@ const NavFooter = () => {
       <div className="N-footer">
         <nav
           className="navbar navbar-expand-sm justify-content-center"
-          style={{ height: "210px" }}
+          style={{ height: "180px" }}
         >
           <ul className="navbar-nav">
             <li className="nav-item">
@@ -20,7 +20,7 @@ const NavFooter = () => {
               >
                 <i
                   className="fa fa-facebook-official"
-                  style={{ fontSize: "36px" }}
+                  style={{ fontSize: "30px" }}
                 ></i>
               </a>
             </li>
@@ -33,7 +33,7 @@ const NavFooter = () => {
               >
                 <i
                   className="fa fa-linkedin-square"
-                  style={{ fontSize: "36px" }}
+                  style={{ fontSize: "30px" }}
                 ></i>
               </a>
             </li>
@@ -44,7 +44,7 @@ const NavFooter = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-github" style={{ fontSize: "36px" }}></i>
+                <i className="fa fa-github" style={{ fontSize: "30px" }}></i>
               </a>
             </li>
           </ul>

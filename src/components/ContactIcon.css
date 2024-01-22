@@ -33,9 +33,3 @@
     margin-left: 1rem;
   }
 }
-@media (max-width: 480px) {
-  .c-icon h6 {
-    font-size: 1em;
-    margin-left: 1rem;
-  }
-}

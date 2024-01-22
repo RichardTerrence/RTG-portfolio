@@ -12,18 +12,18 @@
   color: #dde6ed;
 }
 #light .nav-link:hover {
-  color: black;
+  color: #165a72;
 }
 .N-footer {
-  background: #3f4e4f;
+  background-color: #040f13;
   justify-content: center;
 }
 .nav-item .nav-link {
   position: relative;
-  color: #a27b5c;
+  color: #92cbdf;
 }
 .nav-link:hover {
-  color: black;
+  color: #165a72;
 }
 @media (max-width: 1200px) {
   .N-footer {
@@ -41,11 +41,6 @@
   }
 }
 @media (max-width: 600px) {
-  .N-footer {
-    max-width: 100%;
-  }
-}
-@media (max-width: 480px) {
   .N-footer {
     max-width: 100%;
   }

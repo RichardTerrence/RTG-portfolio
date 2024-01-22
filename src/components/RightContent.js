@@ -22,7 +22,7 @@ const RightContent = () => {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className="rightcontainer">
-        <div className="contentleft">
+        <div className="contentleft" id={theme}>
           <LeftContent />
         </div>
         <div className="rightcontainer1" id={theme}>

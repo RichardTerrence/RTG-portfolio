@@ -11,7 +11,7 @@ const ContactIcon = () => {
       </div>
       <div className="c-icon">
         <i className="fa fa-phone" style={{ fontSize: "36px" }}></i>
-        <h6>Phone: +63 960 422 9888</h6>
+        <h6>Phone: +63 956 499 8013</h6>
       </div>
       <div className="c-icon">
         <i className="fa fa-envelope" style={{ fontSize: "36px" }}></i>

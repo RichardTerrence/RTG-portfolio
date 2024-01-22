@@ -13,6 +13,10 @@ import majproj2 from "./images/majproj2.png";
 import majproj3 from "./images/majproj3.png";
 
 const PortfolioGallery = () => {
+  function handleClick() {
+    alert("Nothing to view at this moment the content is not yet complete.");
+  }
+
   return (
     <>
       <div id="mydesign" className="myPortfolio">
@@ -20,45 +24,45 @@ const PortfolioGallery = () => {
           <h2>My Portfolio</h2>
         </div>
         <div className="content1" style={{ cursor: "pointer" }}>
-          <div className="minproj1">
+          <div onClick={handleClick} className="minproj1">
             <img src={minproj1} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="minproj2">
+          <div onClick={handleClick} className="minproj2">
             <img src={minproj2} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="minproj3">
+          <div onClick={handleClick} className="minproj3">
             <img src={minproj3} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="minproj4">
+          <div onClick={handleClick} className="minproj4">
             <img src={minproj4} alt="" style={{ width: "100%" }} />
           </div>
           <p></p>
         </div>
 
         <div className="content2" style={{ cursor: "pointer" }}>
-          <div className="majproj1">
+          <div onClick={handleClick} className="majproj1">
             <img src={majproj1} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="majproj2">
+          <div onClick={handleClick} className="majproj2">
             <img src={majproj2} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="majproj3">
+          <div onClick={handleClick} className="majproj3">
             <img src={majproj3} alt="" style={{ width: "100%" }} />
           </div>
           <p></p>
         </div>
 
         <div className="content3" style={{ cursor: "pointer" }}>
-          <div className="capstone">
+          <div onClick={handleClick} className="capstone">
             <img src={capstone} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="capstone1">
+          <div onClick={handleClick} className="capstone1">
             <img src={capstone1} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="capstone3">
+          <div onClick={handleClick} className="capstone3">
             <img src={capstone3} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="capstone2">
+          <div onClick={handleClick} className="capstone2">
             <img src={capstone2} alt="" style={{ width: "100%" }} />
           </div>
           <p></p>

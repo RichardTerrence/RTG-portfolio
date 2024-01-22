@@ -16,7 +16,7 @@ label {
   font-weight: 800;
 }
 #light .C-button {
-  background-color: #2c3639;
+  background-color: #2a4e81;
   color: #dcd7c9;
 }
 #dark .C-button {
@@ -45,13 +45,6 @@ label {
   }
 }
 @media (max-width: 600px) {
-  .contact-form {
-    grid-template-columns: 1fr;
-    grid-template-areas: "C-form";
-    padding: 2rem;
-  }
-}
-@media (max-width: 480px) {
   .contact-form {
     grid-template-columns: 1fr;
     grid-template-areas: "C-form";
