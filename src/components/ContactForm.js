@@ -35,32 +35,39 @@ const ContactForm = () => {
     <div className="contactForm" id="contact">
       <h6 className="contact-lets">Let's Connect, Send me a message</h6>
       <form className="C-form" ref={form} onSubmit={sendEmail}>
-        <div className="formGroup mb-3" controlId="formBasicUserName">
-          <div className="formLabel">UserName</div>
+        <div className="formGroup mb-3" controlid="formBasicUserName">
+          <div className="formLabel">Name</div>
           <input
             type="text"
-            name="UserName"
+            id="userName"
+            name="userName"
+            autoComplete="fullName"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
             required
+            minLength={4}
+            maxLength={20}
           />
         </div>
-        <div className="formGroup mb-3" controlId="formBasicEmail">
+        <div className="formGroup mb-3" controlid="formBasicEmail">
           <div className="formLabel">Email</div>
           <input
             type="text"
-            name="email"
+            id="userEmail"
+            name="userEmail"
+            autoComplete="off"
             value={userEmail}
             onChange={(e) => setUserEmail(e.target.value)}
             required
           />
         </div>
-        <div className="formGroup mb-3" controlId="formBasicMessage">
+        <div className="formGroup mb-3" controlid="formBasicMessage">
           <div className="formLabel">Message</div>
           <input
             style={{ width: "100%", height: "80px" }}
             as="textarea"
-            name="message"
+            id="sendMessage"
+            name="sendMessage"
             value={sendMessage}
             onChange={(e) => setSendMessage(e.target.value)}
             required
