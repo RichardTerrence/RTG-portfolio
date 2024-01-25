@@ -34,28 +34,14 @@ input {
 #dark .contactButton:hover {
   color: #0d0d0e;
 }
-@media (max-width: 1200px) {
+@media screen and(max-width: 600px) {
   .contactForm {
     grid-template-columns: 1fr;
     grid-template-areas: "C-form";
     padding: 2rem;
   }
 }
-@media (max-width: 992px) {
-  .contactForm {
-    grid-template-columns: 1fr;
-    grid-template-areas: "C-form";
-    padding: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .contactForm {
-    grid-template-columns: 1fr;
-    grid-template-areas: "C-form";
-    padding: 2rem;
-  }
-}
-@media (max-width: 600px) {
+@media screen and(max-width: 400px) {
   .contactForm {
     grid-template-columns: 1fr;
     grid-template-areas: "C-form";

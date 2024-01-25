@@ -191,31 +191,7 @@ h6 {
 .right-footer {
   grid-area: right-footer;
 }
-@media (max-width: 1200px) {
-  .rightcontainer {
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-areas: "rightcontainer1 contentleft";
-    width: 100%;
-    height: 100%;
-  }
-  .right-info {
-    color: #dcd7c9;
-    text-align: center;
-  }
-}
-@media (max-width: 992px) {
-  .rightcontainer {
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-areas: "rightcontainer1 contentleft";
-    width: 100%;
-    height: 100%;
-  }
-  .right-info {
-    color: #dcd7c9;
-    text-align: center;
-  }
-}
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .rightcontainer {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -224,14 +200,13 @@ h6 {
     width: 100%;
     height: 100%;
   }
-
   .right-info {
     color: #dcd7c9;
     text-align: center;
     padding-top: 2rem;
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .rightcontainer {
     grid-template-columns: 1fr;
     grid-template-areas:

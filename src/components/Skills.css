@@ -68,23 +68,7 @@
   color: white;
   text-align: center;
 }
-@media (max-width: 1200px) {
-  .skill-tech {
-    width: 20rem;
-  }
-  .skill-progress h6 {
-    font-size: 1.2em;
-  }
-}
-@media (max-width: 992px) {
-  .skill-tech {
-    width: 20rem;
-  }
-  .skill-progress h6 {
-    font-size: 1.2em;
-  }
-}
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .skill-progress {
     display: flex;
     flex-direction: column;
@@ -99,7 +83,7 @@
     font-size: 1.2em;
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .skill-progress {
     display: flex;
     flex-direction: column;

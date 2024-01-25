@@ -49,23 +49,8 @@
   font-weight: 900;
   padding: 16px 32px;
 }
-@media (max-width: 1200px) {
-  .leftcontent-body {
-    max-width: 100%;
-    width: 40%;
-    height: 100%;
-    position: fixed;
-  }
-}
-@media (max-width: 992px) {
-  .leftcontent-body {
-    max-width: 100%;
-    width: 40%;
-    height: 100%;
-    position: fixed;
-  }
-}
-@media (max-width: 768px) {
+
+@media screen and (max-width: 600px) {
   .leftcontent-body {
     height: 50vh;
     width: 100%;
@@ -74,11 +59,12 @@
   .avatar {
     width: 100%;
     margin: auto;
-    padding: 4rem 4rem 0 4rem;
+    padding: 4rem 3rem 0 3rem;
   }
   .imageprofile {
     height: 100%;
     width: 100%;
+    border-radius: 3px;
     box-shadow: 0px 10px 20px rgb(255, 255, 255, 0.3);
   }
   #light .imageprofile {
@@ -94,12 +80,12 @@
   .text {
     background-color: rgba(70, 68, 68, 0.1);
     color: #e9f5f9;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     padding: 16px 32px;
   }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .leftcontent-body {
     height: 50vh;
     width: 100%;

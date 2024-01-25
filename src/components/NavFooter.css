@@ -25,22 +25,12 @@
 .nav-link:hover {
   color: #165a72;
 }
-@media (max-width: 1200px) {
+@media screen and(max-width: 600px) {
   .N-footer {
     max-width: 100%;
   }
 }
-@media (max-width: 992px) {
-  .N-footer {
-    max-width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .N-footer {
-    max-width: 100%;
-  }
-}
-@media (max-width: 600px) {
+@media screen and(max-width: 600px) {
   .N-footer {
     max-width: 100%;
   }
